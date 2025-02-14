@@ -1,15 +1,15 @@
 # login-auth-test
 
-# Login Authentication System
+# Sistema de Autenticación de Login
 
-Este es un simple metodo de autenticacion de usuario en un sistema con registro y incio funcion de inicio de sesion, armado en Python and bcrypt para el hashing de la .
+Este es un simple método de autenticación de usuario en un sistema con registro e inicio de sesión, desarrollado en Python y bcrypt para el hashing de la contraseña.
 
 
 ## Estructura de Archivos
 
-login_auth.py: Contiene la logica de autenticacion
-test_login_auth.py:Contiene la uinidad de testeo para la logica de autenticacion
-requirements.txt:Lista las dependencias del proyecto
+login_auth.py: Contiene la lógica de autenticación.
+test_login_auth.py: Contiene las pruebas unitarias para la lógica de autenticación.
+requirements.txt: Lista las dependencias del proyecto.
 
 
 
@@ -28,9 +28,9 @@ requirements.txt:Lista las dependencias del proyecto
 
 ## Uso
 
-1. Correr la aplicacion importando authenticator desde login_auth.py
-2. Registrar y autenticar los usuarios usando register_user(username, password) and authenticate_user(username, password)
+1. Correr la aplicación importando authenticator desde login_auth.py.
+2. Registrar y autenticar los usuarios usando register_user(username, password) y authenticate_user(username, password).
 
 #Correr Pruebas
-1. Para correr la prueba, ejecuta el comando siguiente:
+1. Para correr las pruebas, ejecuta el siguiente comando:
 	pytest test_login_auth.py
