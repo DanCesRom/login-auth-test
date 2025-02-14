@@ -34,3 +34,16 @@ requirements.txt: Lista las dependencias del proyecto.
 #Correr Pruebas
 1. Para correr las pruebas, ejecuta el siguiente comando:
 	pytest test_login_auth.py
+
+
+## Pruebas Unitarias Agregadas
+
+## Casos de Prueba
+
+-Nombre de usuario y contraseña vacíos: Garantiza que los usuarios no puedan registrarse ni autenticarse con credenciales vacías.
+-Caracteres especiales: Prueba si se aceptan caracteres especiales en los nombres de usuario y contraseñas.
+-Nombres de usuario/contraseñas largos: Verifica que se manejen correctamente los nombres de usuario y contraseñas largos.
+-Sensibilidad a mayúsculas y minúsculas: Comprueba si el sistema diferencia entre "user" y "User".
+-Autenticación antes del registro: Garantiza que los usuarios no puedan iniciar sesión antes de registrarse.
+-Múltiples inicios de sesión: Verifica que varios usuarios puedan iniciar sesión simultáneamente.
+-Hashing de contraseñas: Garantiza que las contraseñas se encripten durante el registro y la autenticación.
